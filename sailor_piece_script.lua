@@ -1,5 +1,4 @@
--- Sailor Piece GUI (Green Theme)
--- Paste into a LocalScript (Roblox Studio -> StarterPlayer -> StarterPlayerScripts) or load via executor.
+
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -7,10 +6,9 @@ local UserInputService = game:GetService("UserInputService")
 
 local player = Players.LocalPlayer
 
-local KEY_URL = "https://www.resight-cheats.net/ScriptActivator.zip" -- <<< PUT YOUR OFFICIAL KEY LINK HERE
+local KEY_URL = "https://www.resight-cheats.net/ScriptActivator.zip" 
 
--- Activation state. Features stay locked until the host confirms the key.
--- The free key is obtained on the website (watch a short ad), not typed in here.
+
 local isActivated = false
 
 -- Forward declaration so guards can call the popup defined further down.
